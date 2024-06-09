@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    background: #2E1C1C;
+    color: #ffffff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.calculator {
+    background: #3B2F2F;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+input {
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #4B3A3A;
+    color: #ffffff;
+    width: calc(100% - 32px);
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #9B3D3D;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #7B2D2D;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive;
+}

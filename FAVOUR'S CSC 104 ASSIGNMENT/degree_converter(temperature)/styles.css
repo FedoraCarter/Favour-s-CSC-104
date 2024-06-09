@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Cute Font', cursive;
+    background: #121212;
+    color: #ffffff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 'Cute Font', cursive;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.converter {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+input,
+select,
+button {
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+input,
+select {
+    background: #2a2a2a;
+    color: #ffffff;
+}
+
+button {
+    background: #007acc;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005fa3;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Cute Font', cursive;
+}

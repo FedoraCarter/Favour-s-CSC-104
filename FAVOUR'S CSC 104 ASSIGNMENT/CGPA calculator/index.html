@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">FEDORA.CARTER</div>
+        </header>
+        <h1>CGPA Calculator</h1>
+        <div class="calculator">
+            <div id="inputs">
+                <div class="input-group">
+                    <input type="number" step="0.01" placeholder="Enter GPA" class="gpa">
+                    <input type="number" placeholder="Enter Credit Hours" class="credits">
+                </div>
+            </div>
+            <button onclick="addInput()">Add More</button>
+            <button onclick="calculateCGPA()">Calculate CGPA</button>
+            <div id="output"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
